@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/le-frog/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}" />
+<script type="text/javascript" src="{{ url_for('static',filename='quizcode.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+
+<div id="pagewrapper">
+  
+  <h2 id="question"></h2>
+  
+  <form>
+    <div id="alts">
+      <input name="alts" type="radio" id="alt_1" value="1" />
+      <label for="alt_1" id="alt_1_text"></label>
+      
+      <input name="alts" type="radio" id="alt_2" value="2" />
+      <label for="alt_2" id="alt_2_text"></label>
+      
+      <input name="alts" type="radio" id="alt_3" value="3" />
+      <label for="alt_3" id="alt_3_text"></label>
+    </div>
+  </form>
+  
+  <div id="result-information">
+    <img id="result_img" src="" />
+    <div id="result"></div>
+  </div>
+
+  <input type="button" class="bottom-button" id="submit_answer" value="Answer" />
+  <input type="button" class="bottom-button" id="next_question" value="Next question" />
+  
+</div>
+{% endblock %}

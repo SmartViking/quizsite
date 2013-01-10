@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Quiz site!</title>
+    <script type="text/javascript"
+	    src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+      var $CORRECT_IMG = "{{ url_for('static',filename='correct.png') }}";
+       // http://findicons.com/icon/234352/button_ok?id=387647
+
+      var $INCORRECT_IMG = "{{ url_for('static',filename='incorrect.png') }}"
+       // http://findicons.com/icon/229840/gtk_close
+    </script>
+    {% block head %}{% endblock %}
+  </head>
+
+  <body>
+    {% block body %}{% endblock %}
+  </body>
+
+</html>
