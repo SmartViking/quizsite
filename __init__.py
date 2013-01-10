@@ -4,11 +4,9 @@ from flask import Flask, jsonify, render_template, request, g, url_for, abort
 import sqlite3
 
 app = Flask(__name__)
-
-DATABASE = 'questions.db'
-
 app.config['DEBUG'] = True
 
+DATABASE = 'questions.db'
 
 def connect_db():
     return sqlite3.connect(DATABASE)

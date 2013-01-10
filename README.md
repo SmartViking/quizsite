@@ -3,7 +3,7 @@ Quiz-site
 
 Just a quiz site. Made for no real reason.
 
-Before you run `python quizsite.py`, you must run `sqlite3 questions.db < questions.sql` or something that will perform the same task.
+Before you run `python run.py`, you must run `sqlite3 questions.db < questions.sql` or something that will perform the same task.
 
 License
 --
