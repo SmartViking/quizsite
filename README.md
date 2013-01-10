@@ -3,6 +3,8 @@ Quiz-site
 
 Just a quiz site. Made for no real reason.
 
+Before you run `python quizsite.py`, you must run `sqlite3 questions.db < questions.sql` or something that will perform the same task.
+
 License
 --
 This program is licensed under the GNU GPLv3. You can find a copy of the license in the file `gpl.txt`.
