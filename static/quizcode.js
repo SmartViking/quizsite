@@ -19,10 +19,10 @@ $(document).ready(function() {
 	$.get($SCRIPT_ROOT+'/check_answer/'+window.question_id+"/"+guess,
 	      function(data) {
 		  if (data === "true") {
-		      $("#result").text("Correct!");
+		      $("#result").text("Correct!").css("color","green");
 		      $("#result_img").attr("src",$CORRECT_IMG)
 		  } else {
-		      $("#result").text("Incorrect!");
+		      $("#result").text("Incorrect!").css("color","red");
 		      $("#result_img").attr("src",$INCORRECT_IMG)
 		  }
 		  $("#alts").hide()
