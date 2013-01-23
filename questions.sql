@@ -12,19 +12,19 @@ CREATE TABLE alt_question (
 
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ("How many balls do I have", 3, "1","23","2");
+VALUES ("What is the world's longest river?", 3, "Nile","Yangtze","Amazon");
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ('What is love?', 1, "Baby don't hurt me","not correct answer","68!");
+VALUES ("What is love?", 2,"An emotion of a strong affection and personal attachment", "Baby don't hurt me","There's no such thing");
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ("What's 2*2?", 1, "2*2","BALLS???","NOT! balls, something that's not balls!");
+VALUES ("What is the same as 2*2", 1, "2*2","5","3");
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ("How can I ever trust you again? How can I trust you after this?", 3, "You can't","DOOOO IIIT","calm yo tits");
+VALUES ("In which century was color photography invented?", 2, "1700-1800","1800-1900","1900-2000");
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ("How fast is the speed of light?", 2, "42","Very fast","Slower than airplanes");
+VALUES ("How fast is the speed of light?", 3, "Slow","Very Slow","Faster than slow");
 
 INSERT INTO alt_question ( question, answer, alt_1, alt_2, alt_3 )
-VALUES ("Are you dead?", 3, "Yes","No","NAY");
+VALUES ("On which continent is Bolivia located?", 1, "South America","Asia","Europe");
